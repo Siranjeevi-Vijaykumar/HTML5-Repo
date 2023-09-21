@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+
+<body bgcolor="gray">
+    <h1>Registration form</h1>
+    <form><fieldset>
+        <table>
+            <thead>
+                <tr>
+                    <th><label for="k">FIRST NAME</label><br><br></th>
+                    <td><input type="text" id="k" placeholder="Enter a first name" required><br><br></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><label for="i">LAST NAME</label><br><br></th>
+                    <td><input type="text" id="i" placeholder="Enter a last name" required><br><br></td>
+                </tr>
+                <tr>
+                    <th><label for="p">CREATE PASSWORD</label><br><br></th>
+                    <td><input type="password" id="p" placeholder="Enter a password" required><br><br></td>
+                </tr>
+                <tr>
+                    <th><label>DATE OF BIRTH</label><br><br></th>
+                    <td><input type="datetime-local"><br><br></td>
+                </tr>
+                <tr>
+                    <th><label>AGE</label><br><br></th>
+                    <td><input type="number" placeholder="Enter a age"><br><br></td>
+                </tr>
+                <tr>
+                    <th><label>GENDER</label><br><br></th>
+                    <td><SELECT>
+                        <option>select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </SELECT><br><br></td>
+                </tr>
+                <tr>
+                    <th><label for="tl">EMAIL ID</label><br><br></th>
+                    <td><input type="email" id="tl" placeholder="Enter a Email"><br><br></td>
+                </tr>
+                <tr>
+                    <th><label for="tele">TELEPHONE NUMBER </label><br><br></th>
+                    <td><input type="tel" id="tele" placeholder="enter a TELEPHONE number"><br><br></td>
+                </tr>
+                <tr>
+                    <th><label for="fl">PHOTO</label></th>
+                    <td><input type="file" id="fl" placeholder="UPLOAD a PHOTO"></td>
+                </tr>
+            </tbody>
+        </table><br><br><hr>
+        <input type="reset"><br><br>
+        <input type="radio" id="e"><label for="e"><details>
+            <summary>Terms and Conditions</summary>
+            <p>the document governing the contractual relationship between the provider of a service and its user</p>
+        </details></label><br><br><hr>
+        <input type="submit"><br><br><hr>
+        <label for="gh">YOUR WEBSITE</label>
+        <input type="url" id="gh" placeholder="Enter your website">
+    
+    </fieldset>
+    </form>
+</body>
+
+</html>
